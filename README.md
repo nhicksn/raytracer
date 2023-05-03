@@ -1,1 +1,3 @@
 # raytracer
+
+graphics in C++
