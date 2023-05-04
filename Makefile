@@ -4,7 +4,7 @@ CXX = g++
 
 CXXFLAGS = -std=c++17 -Wconversion -Wall -Werror -Wextra -pedantic
 
-FILES = main.cpp vec3.h color.h
+FILES = main.cpp vec3.h color.h ray.h
 
 EXEC_FILE = tracerays
 
