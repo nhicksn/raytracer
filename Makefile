@@ -4,7 +4,7 @@ CXX = g++
 
 CXXFLAGS = -std=c++17 -Wconversion -Wall -Werror -Wextra -pedantic
 
-FILES = main.cpp raytracer.o
+FILES = main.cpp vec3.h color.h
 
 EXEC_FILE = tracerays
 
@@ -21,6 +21,3 @@ clean:
 	-rm -f *.o
 	-rm -f $(EXEC_FILE)*
 .PHONY: clean
-
-# dependencies
-raytracer.o: raytracer.cpp raytracer.h
